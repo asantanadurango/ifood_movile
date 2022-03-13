@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ifood_movile</string>
+    <string name="str_email">E-mail</string>
+    <string name="str_password">Password</string>
+    <string name="str_name">Name</string>
+    <string name="str_adress">Adress</string>
+    <string name="str_signup">Sign Up</string>
+    <string name="str_signin">Sign In</string>
+</resources>
