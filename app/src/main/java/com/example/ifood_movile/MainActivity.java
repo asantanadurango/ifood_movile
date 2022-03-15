@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toLogin(View view){
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, ItemListActivity.class);
         startActivity(intent);
         Toast.makeText(this, "On Login", Toast.LENGTH_SHORT).show();
     }
