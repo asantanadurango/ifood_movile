@@ -34,6 +34,6 @@ public class ItemListActivity extends AppCompatActivity {
     }
 
     public void addItem (View view){
-        Toast.makeText(this, "Item added", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, numberUnits + " Item added", Toast.LENGTH_SHORT).show();
     }
 }
