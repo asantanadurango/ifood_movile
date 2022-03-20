@@ -1,4 +1,4 @@
-package com.example.ifood_movile.entiies;
+package com.example.ifood_movile.entities;
 
 import java.util.ArrayList;
 
@@ -8,11 +8,9 @@ public class ProductEntity {
     private String name;
     private int price;
     private String imgUrl;
-    private ArrayList<String> tags;
 
     public ProductEntity() {
         this.id = null;
-        this.tags = new ArrayList <> ();
     }
 
     public String getId() {
@@ -47,11 +45,4 @@ public class ProductEntity {
         this.imgUrl = imgUrl;
     }
 
-    public ArrayList<String> getTags() {
-        return tags;
-    }
-
-    public void setTags(ArrayList<String> tags) {
-        this.tags = tags;
-    }
 }

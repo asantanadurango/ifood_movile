@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ifood_movile.databinding.ActivityItemListBinding;
-import com.example.ifood_movile.entiies.ProductEntity;
+import com.example.ifood_movile.entities.ProductEntity;
 
 import java.util.ArrayList;
 
